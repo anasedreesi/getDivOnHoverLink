@@ -1,20 +1,40 @@
-# Search filter on key up
-simple code to filter content on the fly
+# get element content On Hover Link
+simple code to  get element content On Hover Link
 
 <ol class="commentlist">
- <li><a href="">some text herer</a></li>
- <li><a href="">some text herer</a></li>
- <li><a href="">some text herer</a></li>
- <li><a href="">some text herer</a></li>
+ <li><a href="#t1">some text herer</a></li>
+ <li><a href="#t2">some text herer</a></li>
+ <li><a href="#t3">some text herer</a></li>
+ <li><a href="#t4">some text herer</a></li>
 <ol>
 
+<a id="t1"></a>
+<div class="crs">
+some text herer some text herer
+</div>
+
+<a id="t2"></a>
+<div class="crs">
+some text herer some text herer
+</div>
+
+<a id="t3"></a>
+<div class="crs">
+some text herer some text herer
+</div>
+
+<a id="t4"></a>
+<div class="crs">
+some text herer some text herer
+</div>
+
+
 demo: 
-https://anasedreesi.github.io/listFilterOnKeyUp/
+https://anasedreesi.github.io/getDivOnHoverLink/
 
 using:
 
 1- add the script to your project
-2- use the script as follows:
-srchHilight("a", $(".commentlist li"));  //srchHilight(elementtxt, listItem)); 
+2- change the line in the script file as your element selection query ( $('#cntnt div').html('<table class="crsDesc">' + $('#dContent #t' + hrf).next().html() + '</table>');)
 
 thats all ;)
